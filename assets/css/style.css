@@ -1,0 +1,167 @@
+*
+{
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    width: auto;
+    height: auto;
+}
+
+body
+{
+    background-color: #D8DBE2;
+}
+
+.TitlePage 
+{
+    height: 76px;
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.mainContent
+{
+    height: 623px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #D8DBE2;
+    border-top: 1px grey solid; 
+}
+
+.userSpace 
+{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Greetings
+{
+    border-bottom:5px #353535 solid;
+}
+
+.rounds
+{
+    display: flex;
+    height: 375px;
+    margin: 0.5cm;
+}
+
+.NumberGames
+{
+    margin-inline-end: 50px;
+}
+
+.input
+{
+    margin:0.5cm;
+}
+
+.Combination
+{
+    display: flex;
+    width: 703px;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+
+table 
+{
+    margin:0.5cm;
+    border: 0;
+}
+
+tr
+{
+    margin: 0.5;
+}
+
+td, th
+{
+    padding: 0 50px;
+    text-align: center;
+}
+
+.button
+{
+    color: #FFFF;
+    border: 1px transparent;
+    border-radius: 25px;
+    background-color: darkblue;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    display: flex;
+}
+
+footer
+{
+    width: auto;
+    background-color: transparent;
+    border-top: 1px grey solid; 
+    display: flex;
+    font-size: 1vw;
+    height: 150px;
+}
+
+.leftPart 
+{
+    display: flex;
+    align-items: center;
+}
+
+.footerIcon
+{
+    width: 100px;
+    margin:10px;
+}
+
+a:link 
+{
+    color: #353535;
+    text-decoration: none;
+}  
+
+a:visited 
+{
+    color: #353535;
+    text-decoration: none;
+}  
+a:hover 
+{
+    color: #353535;
+    text-decoration: none;
+}  
+
+a:active 
+{
+    color: #353535;
+    text-decoration: none;
+} 
+
+.authors
+{
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+footer ul
+{
+    display: flex;
+    flex-direction: column
+}
+
+.rightPart
+{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta author="Guillem Pozo, Adrià Montoto">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <title>Mater Mind Game</title> 
+    </head>
+
+    <body>
+        <aside class="TitlePage">
+            <h1>MASTER MIND</h1>
+        </aside>
+        <div id="user_information">
+            <h1>Player Information</h1>
+            <div style="display: inline-flex; align-items: center;">
+                <label for="username">Name:</label>
+                <input type="text" id="username" placeholder="Your name ..." style="margin:5px;">
+                <input class="button" type="button" id="information_button" value="Play">
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="userSpace">
+                <div class="Greetings">
+                    <h2 style="margin:0.5cm;" id="username_title"></h2>
+                </div>
+                <div>
+                    <div class="rounds">
+                        <p class="NumberGames" id="wins"></p> 
+                        <p class="NumberGames" id="losses"></p>   
+                    </div>
+                    <div id="round_input" style="display: inline-flex; align-items: center;">
+                        <h3 id="round_title" for="user_code"></h3>
+                        <input type="text" id="user_code" maxlength="4" placeholder="Code" style="margin:5px;">
+                        <input class="button" type="button" id="round_button" value="Try">
+                    </div>
+                </div>  
+            </div>
+            <div class="Combination" style=" border-left: 5px #353535 solid;">
+                <table class="Combination" id="round_table">
+                    <tr>
+                        <th>Code Combination</th>
+                        <th>Correct Numbers</th>
+                        <th>Numbers In</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <div class="leftPart">
+                <div>
+                    <a href="https://github.com/adriiamontoto/multimedia-game-webpage">
+                        <img src="assets/images/github.svg" alt="github icon" class="footerIcon">
+                    </a>
+                </div>
+                <div class="authors">
+                    <h3><strong>Master Mind</strong> reduced version game done by:</h3>
+                    <ul>
+                        <li type="disc">Guillem Pozo Sebastián u1972840@campus.udg.edu</li>
+                        <li type="disc">Adrià Montoto Peris u19727220@campus.udg.edu</li>
+                    </ul>
+                </div>
+            </div>  
+            <div class="rightPart">
+                <h3>Multimedia Subject Project</h3>
+                <a href="https://www.udg.edu/en/">
+                    <img src="assets/images/udg_logo.png" alt="Udg icon" class="footerIcon" style="width: 120px;">
+                </a>
+            </div>
+        </footer>
+    </body>
+    <script src="assets/js/script.js"></script>  
+</html>
